@@ -1,118 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Junze Li — Homepage</title>
-    <style>
-        :root {
-            --bg: #fafafa;
-            --text: #1a1a1a;
-            --muted: #666;
-            --accent: #2c5aa0;
-            --border: #e0e0e0;
-            --card: #fff;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg: #1a1a1a;
-                --text: #e0e0e0;
-                --muted: #999;
-                --accent: #6ea8fe;
-                --border: #333;
-                --card: #252525;
-            }
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: var(--bg); color: var(--text);
-            line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 40px 20px;
-        }
-        h1 { font-size: 2em; font-weight: 700; margin-bottom: 4px; }
-        h2 { font-size: 1.2em; font-weight: 600; color: var(--accent); margin: 32px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
-        .subtitle { color: var(--muted); font-size: 1em; margin-bottom: 20px; }
-        .profile { display: flex; gap: 24px; align-items: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
-        .avatar {
-            width: 130px; height: 130px; border-radius: 50%; background: var(--border);
-            display: flex; align-items: center; justify-content: center;
-            font-size: 3em; color: var(--muted); flex-shrink: 0;
-        }
-        .info p { margin-bottom: 4px; }
-        .info .tag { display: inline-block; background: var(--accent); color: #fff; padding: 1px 10px; border-radius: 12px; font-size: 0.82em; margin-right: 6px; margin-bottom: 4px; }
-        a { color: var(--accent); text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .paper, .project, .award {
-            background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-            padding: 14px 18px; margin-bottom: 12px;
-        }
-        .paper .title, .project .title { font-weight: 600; }
-        .paper .meta, .project .meta { color: var(--muted); font-size: 0.9em; }
-        .links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
-        footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85em; text-align: center; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Junze Li</title>
+<style>
+body { font-family: sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.2em; margin-top: 32px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+.tag { display: inline-block; background: #2c5aa0; color: #fff; padding: 1px 10px; border-radius: 12px; font-size: 0.82em; margin-right: 6px; }
+a { color: #2c5aa0; text-decoration: none; }
+.paper, .project, .award { border: 1px solid #e0e0e0; border-radius: 8px; padding: 14px 18px; margin-bottom: 12px; }
+.paper .title, .project .title { font-weight: 600; }
+.paper .meta, .project .meta { color: #666; font-size: 0.9em; }
+footer { margin-top: 40px; border-top: 1px solid #e0e0e0; padding-top: 16px; color: #999; font-size: 0.85em; text-align: center; }
+</style>
 </head>
 <body>
-
-<div class="profile">
-    <div class="avatar">👤</div>
-    <div class="info">
-        <h1>Junze Li <span style="font-size:0.6em;color:var(--muted)">李君泽</span></h1>
-        <p class="subtitle">Undergraduate Student · School of Artificial Intelligence, Nanjing University</p>
-        <p>
-            <span class="tag">🏫 NJU 2024</span>
-            <span class="tag">🤖 AI</span>
-            <span class="tag">🏠 Taizhou, Jiangsu</span>
-            <span class="tag">🎂 Dec 10, 2005</span>
-        </p>
-        <p style="margin-top:8px">
-            📧 <a href="mailto:1004874101@qq.com">1004874101@qq.com</a> &nbsp;·&nbsp;
-            <a href="mailto:ljz2366795274@gmail.com">ljz2366795274@gmail.com</a> &nbsp;·&nbsp;
-            <a href="mailto:241300016@smail.nju.edu.cn">241300016@smail.nju.edu.cn</a><br>
-            🔗 <a href="https://github.com/THERESIA666">GitHub</a>
-        </p>
-    </div>
-</div>
+<h1>Junze Li <span style="font-size:0.6em;color:#999">李君泽</span></h1>
+<p style="color:#666">Undergraduate Student · School of Artificial Intelligence, Nanjing University</p>
+<p>
+<span class="tag">NJU 2024</span><span class="tag">AI</span><span class="tag">Taizhou, Jiangsu</span><span class="tag">Dec 10, 2005</span>
+</p>
+<p>
+<a href="mailto:1004874101@qq.com">1004874101@qq.com</a> ·
+<a href="mailto:ljz2366795274@gmail.com">ljz2366795274@gmail.com</a> ·
+<a href="mailto:241300016@smail.nju.edu.cn">241300016@smail.nju.edu.cn</a> ·
+<a href="https://github.com/THERESIA666">GitHub</a>
+</p>
 
 <h2>About</h2>
-<p>I am a 2024 undergraduate student at the <strong>School of Artificial Intelligence, Nanjing University</strong>, majoring in Artificial Intelligence. My research interests lie in multi-agent AI systems and LLM-based agents. I am from Taizhou, Jiangsu.</p>
+<p>Undergraduate at the <strong>School of Artificial Intelligence, Nanjing University</strong>, majoring in AI. Research interests: multi-agent AI systems and LLM-based agents. From Taizhou, Jiangsu.</p>
 
 <h2>Publications</h2>
 <div class="paper">
-    <div class="title">Multi-Agent Collaboration Benchmark: A Framework-Agnostic Toolkit for Comparing Agentic AI Systems</div>
-    <div class="meta"><strong>Junze Li</strong> · DAI 2026 (The 8th International Conference on Distributed Artificial Intelligence) · Industry Track</div>
-    <div class="links">
-        <a href="paper/main.pdf">📄 Paper</a>
-        <a href="https://github.com/THERESIA666/mutsumi.github.io">💻 Code</a>
-    </div>
+<div class="title">Multi-Agent Collaboration Benchmark: A Framework-Agnostic Toolkit for Comparing Agentic AI Systems</div>
+<div class="meta"><strong>Junze Li</strong> · DAI 2026 (8th Int'l Conf. on Distributed Artificial Intelligence) · Industry Track</div>
 </div>
 
 <h2>Projects</h2>
 <div class="project">
-    <div class="title">MAB — Multi-Agent Collaboration Benchmark</div>
-    <div class="meta">A framework-agnostic toolkit for comparing multi-agent AI frameworks on standardized tasks. Evaluated 12 configurations across DeepSeek and OpenAI (108 API runs). <strong>Key finding:</strong> simple three-stage pipelines outperform complex role-based frameworks at 11.6× lower cost.</div>
-    <div class="links">
-        <a href="https://github.com/THERESIA666/mutsumi.github.io">📂 GitHub</a>
-        <a href="#">📊 Results</a>
-    </div>
+<div class="title">MAB — Multi-Agent Collaboration Benchmark</div>
+<div class="meta">Framework-agnostic toolkit comparing multi-agent AI systems. 108 API runs across DeepSeek and OpenAI. Simple pipelines outperform complex frameworks at 11.6x lower cost.</div>
 </div>
 
-<h2>Awards & Honors</h2>
+<h2>Awards</h2>
 <div class="award">
-    <div class="title">🏅 Second Prize — Nanjing University 28th Basic Discipline Forum</div>
-    <div class="meta">南京大学第28届基础学科论坛二等奖</div>
+<div class="title">Second Prize — Nanjing University 28th Basic Discipline Forum</div>
+<div class="meta">南京大学第28届基础学科论坛二等奖</div>
 </div>
 
 <h2>Education</h2>
-<ul>
-    <li><strong>Nanjing University</strong> — B.S. in Artificial Intelligence, School of AI · 2024 – Present</li>
-</ul>
+<p><strong>Nanjing University</strong> — B.S. in Artificial Intelligence, School of AI · 2024 – Present</p>
 
-<footer>
-    © 2026 Junze Li · Built with plain HTML & CSS
-</footer>
-
+<footer>© 2026 Junze Li</footer>
 </body>
 </html>
